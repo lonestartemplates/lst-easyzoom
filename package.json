@@ -1,12 +1,12 @@
 {
   "_args": [
     [
-      "easyzoom@2.5.2",
+      "lst-easyzoom@2.5.2",
       "/Users/robchambers/Dropbox/Web/LoneStarTemplates/StencilDevelopment/BigCommerce_Free_Themes/Cornerstone-4.2.1"
     ]
   ],
-  "_from": "easyzoom@2.5.2",
-  "_id": "easyzoom@2.5.2",
+  "_from": "lst-easyzoom@2.5.2",
+  "_id": "lst-easyzoom@2.5.2",
   "_inBundle": false,
   "_integrity": "sha512-vecntBV8TtcmQPtfXTkErBDpQ4KCxvA1EvgN8i5df29mK4WdOAeiWNjbIFMSqtZJ5VlxbP2oAqpOSpOLqtOovA==",
   "_location": "/lst-easyzoom",
@@ -14,8 +14,8 @@
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "easyzoom@2.5.2",
-    "name": "easyzoom",
+    "raw": "lst-easyzoom@2.5.2",
+    "name": "lst-easyzoom",
     "escapedName": "easyzoom",
     "rawSpec": "2.5.2",
     "saveSpec": null,
@@ -26,7 +26,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/easyzoom/-/easyzoom-2.5.2.tgz",
   "_spec": "2.5.2",
-  "_where": "/Users/robchambers/Dropbox/Web/LoneStarTemplates/StencilDevelopment/BigCommerce_Free_Themes/Cornerstone-4.2.1",
+  "_where": "/Users/robchambers/Dropbox/Web/LoneStarTemplates/StencilDevelopment/modules/lst-easyzoom",
   "author": {
     "name": "Matt Hinchliffe"
   },
@@ -42,7 +42,7 @@
     "grunt-contrib-jshint": "^2.0.0",
     "grunt-contrib-uglify": "^4.0.0"
   },
-  "homepage": "https://github.com/i-like-robots/EasyZoom",
+  "homepage": "https://github.com/lonestartemplates/lst-easyzoom",
   "keywords": [
     "zoom",
     "image",
@@ -50,11 +50,11 @@
     "panning"
   ],
   "license": "MIT",
-  "main": "dist/easyzoom.js",
+  "main": "dist/lst-easyzoom.js",
   "name": "easyzoom",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/i-like-robots/EasyZoom.git"
+    "url": "git+ssh://git@github.com/lonestartemplates/lst-easyzoom.git"
   },
   "scripts": {
     "test": "grunt jshint && open test/runner.html"

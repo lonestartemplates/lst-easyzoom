@@ -1,5 +1,5 @@
 {
-  "name": "easyzoom",
+  "name": "lst-easyzoom",
   "version": "2.5.2",
   "description": "EasyZoom is an elegant, highly optimised jQuery image zoom and panning plugin based on the original work by Alen Grakalic.",
   "keywords": [
@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:i-like-robots/EasyZoom.git"
+    "url": "git@github.com:lonestartemplates/lst-easyzoom.git"
   },
   "dependencies": {
     "jquery": ">=1.7"
