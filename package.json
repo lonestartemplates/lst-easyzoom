@@ -1,63 +1,30 @@
 {
-  "_args": [
-    [
-      "lst-easyzoom@2.5.2",
-      "/Users/robchambers/Dropbox/Web/LoneStarTemplates/StencilDevelopment/BigCommerce_Free_Themes/Cornerstone-4.2.1"
-    ]
-  ],
-  "_from": "lst-easyzoom@2.5.2",
-  "_id": "lst-easyzoom@2.5.2",
-  "_inBundle": false,
-  "_integrity": "sha512-vecntBV8TtcmQPtfXTkErBDpQ4KCxvA1EvgN8i5df29mK4WdOAeiWNjbIFMSqtZJ5VlxbP2oAqpOSpOLqtOovA==",
-  "_location": "/lst-easyzoom",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "lst-easyzoom@2.5.2",
-    "name": "lst-easyzoom",
-    "escapedName": "easyzoom",
-    "rawSpec": "2.5.2",
-    "saveSpec": null,
-    "fetchSpec": "2.5.2"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/easyzoom/-/easyzoom-2.5.2.tgz",
-  "_spec": "2.5.2",
-  "_where": "/Users/robchambers/Dropbox/Web/LoneStarTemplates/StencilDevelopment/modules/lst-easyzoom",
-  "author": {
-    "name": "Matt Hinchliffe"
-  },
-  "bugs": {
-    "url": "https://github.com/i-like-robots/EasyZoom/issues"
-  },
-  "dependencies": {
-    "jquery": ">=1.7"
-  },
+  "name": "lst-easyzoom",
+  "version": "2.5.2",
   "description": "EasyZoom is an elegant, highly optimised jQuery image zoom and panning plugin based on the original work by Alen Grakalic.",
-  "devDependencies": {
-    "grunt": "^1.0.0",
-    "grunt-contrib-jshint": "^2.0.0",
-    "grunt-contrib-uglify": "^4.0.0"
-  },
-  "homepage": "https://github.com/lonestartemplates/lst-easyzoom",
   "keywords": [
     "zoom",
     "image",
     "flyout",
     "panning"
   ],
-  "license": "MIT",
-  "main": "dist/lst-easyzoom.js",
-  "name": "easyzoom",
+  "author": "Matt Hinchliffe",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/lonestartemplates/lst-easyzoom.git"
+    "url": "git@github.com:lonestartemplates/lst-easyzoom.git"
   },
+  "homepage": "https://github.com/lonestartemplates/lst-easyzoom",
+  "license": "MIT",
   "scripts": {
     "test": "grunt jshint && open test/runner.html"
   },
-  "version": "2.5.2"
+  "main": "dist/lst-easyzoom.js",
+  "dependencies": {
+    "jquery": ">=1.7"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.0",
+    "grunt-contrib-jshint": "^2.0.0",
+    "grunt-contrib-uglify": "^4.0.0"
+  }
 }
